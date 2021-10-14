@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 late final MyDatabase database;
 
 Future<void> main() async {
-  database = constructDb();
+  database = await constructDb();
   runApp(const MyApp());
 }
 

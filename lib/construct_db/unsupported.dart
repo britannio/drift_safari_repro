@@ -1,3 +1,3 @@
 import 'package:drift_safari_demo/database.dart';
 
-MyDatabase constructDb() => throw UnimplementedError();
+Future<MyDatabase> constructDb() => throw UnimplementedError();
